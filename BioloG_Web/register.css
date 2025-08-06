@@ -1,0 +1,95 @@
+/* Container for the entire form */
+
+body{
+    background-color: rgb(26, 124, 124);
+}
+
+.container-form {
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 2%;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Form title styling */
+.container-form h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Arial', sans-serif;
+    font-size: 28px;
+    color: #333;
+}
+
+/* Inline block setup for Name and Student Info containers */
+.Container-Name, .Container-Student-Info, .Container-Password {
+    display: inline-block;
+    width: 32%;
+    margin-bottom: 20px;
+    vertical-align: top;
+}
+
+/* General form input styling */
+input[type="text"],
+input[type="password"],
+select {
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Form labels */
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Middle Initial textbox shorter size */
+.Enter-Register-MI input {
+    width: 60px; /* Set the width for the Middle Initial textbox */
+}
+
+/* Section dropdown with a shorter size */
+.Container-Student-Info select {
+    width: 60%; /* Set the width to limit to 10-15 characters */
+}
+
+/* Submit button styling */
+.Enter-Register-Submit input[type="submit"] {
+    width: 150px; /* Limit the width of the submit button */
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Add hover effect to submit button */
+.Enter-Register-Submit input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Centering the submit button */
+.Enter-Register-Submit {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .Container-Name, .Container-Student-Info, .Container-Password {
+        width: 80%;
+        display: block;
+    }
+    .Enter-Register-MI input,
+    .Container-Student-Info select {
+        width: 100%; /* Make Middle Initial textbox and Section dropdown responsive */
+    }
+}

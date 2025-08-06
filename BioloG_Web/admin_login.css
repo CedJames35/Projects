@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(0, 88, 15);
+}
+
+.container{
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 6%;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.container-1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Arial', sans-serif;
+    font-size: 28px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="password"]{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Form labels */
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 60px; /* Set the width for the Middle Initial textbox */
+}
+
+input[type="submit"] {
+    width: 150px; /* Limit the width of the submit button */
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
