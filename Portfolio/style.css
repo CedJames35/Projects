@@ -1,3 +1,9 @@
+/*Font*/
+@font-face {
+    font-family: FiraCode;
+    src: url(Fonts/FiraCode-Light.ttf);
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -13,6 +19,7 @@ body{
     align-items: center;
     justify-content: center;
     font-family: monospace;
+    font-family: FiraCode;
 }
 
 .intro-container .text-container{
@@ -23,7 +30,6 @@ body{
     font-size: 5em;
     color: #fff;
     letter-spacing: 10px;
-    font-family: monospace;
     border-right: 5px solid;
     width: 100%;
     white-space: nowrap;
@@ -41,4 +47,13 @@ body{
 
 .text-container h3{
     color: #f54747;
+    font-size: 2em;
 }
+
+/* Skill Container */
+
+.skill-container{
+    height: 100vh;
+}
+
+/* Work Container */
